@@ -1,0 +1,74 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:corpus_deagle_golden"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 9,
+          "GunFireMode": "SEMI",
+          "GunId": "tacz:deagle_golden",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_deagle_golden"
+        },
+        {
+          "item": "catr:store_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_deagle_golden"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_deagle_golden"
+        },
+        {
+          "item": "catr:golden_shutter"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_deagle_golden"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_deagle_golden"
+        },
+        {
+          "item": "catr:army_spring"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_deagle_golden"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_deagle_golden"
+  }
+}

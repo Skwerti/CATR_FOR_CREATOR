@@ -1,0 +1,90 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:corpus_rpg7"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 1,
+          "GunFireMode": "SEMI",
+          "GunId": "tacz:rpg7",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_rpg7"
+        },
+        {
+          "item": "catr:butt_rpg7"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_rpg7"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_rpg7"
+        },
+        {
+          "item": "catr:wooden_handle"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_rpg7"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_rpg7"
+        },
+        {
+          "item": "catr:barrel_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_rpg7"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_rpg7"
+        },
+        {
+          "item": "catr:army_spring"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_rpg7"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_rpg7"
+  }
+}

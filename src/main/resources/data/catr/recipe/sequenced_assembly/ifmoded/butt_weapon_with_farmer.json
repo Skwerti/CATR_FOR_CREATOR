@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "catr:wood_material"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:butt_weapon"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_butt_weapon"
+        },
+        {
+          "item": "farmersdelight:iron_knife"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_butt_weapon"
+        }
+      ],
+      "keepHeldItem": true
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_butt_weapon"
+  }
+}

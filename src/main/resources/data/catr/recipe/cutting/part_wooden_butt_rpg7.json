@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "catr:stripped_wood_material"
+    }
+  ],
+  "results": [
+    {
+      "id": "catr:part_wooden_butt_rpg7",
+      "count": 1
+    }
+  ],
+  "processingTime": 100
+}

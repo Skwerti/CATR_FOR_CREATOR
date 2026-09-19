@@ -1,0 +1,56 @@
+modLoader = "javafml"
+loaderVersion = "[4,5)"
+authors = "Slepa01"
+license = "GPLv3"
+
+[[mixins]]
+config = "catr.mixin.json"
+
+[[mods]]
+modId = "catr"
+version = "0.5.4"
+displayName = "CATR (Create Adjust TACZ Recipes)"
+autor = "Slepa01"
+logoFile="assets/catr/icon.png"
+description = '''
+The CATR mod adds TACZ weapon recipes through sequential Build Create
+'''
+
+[[dependencies.catr]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.213,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.catr]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
+
+
+[[dependencies.catr]]
+modId = "createaddition"
+type = "REQUIRED"
+versionRange = "[1.5,)"
+mandatory = true
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.catr]]
+modId = "create"
+type = "REQUIRED"
+versionRange = "[6.0.9,)"
+mandatory = true
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.catr]]
+modId = "tacz"
+type = "REQUIRED"
+versionRange = "[1,)"
+mandatory = true
+ordering = "AFTER"
+side = "BOTH"

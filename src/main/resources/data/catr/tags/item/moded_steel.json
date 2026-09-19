@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createnuclear"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createbigcannons"
+    }
+  ],
+  "values": [
+    "createnuclear:steel_ingot",
+    "createbigcannons:steel_ingot"
+  ]
+}

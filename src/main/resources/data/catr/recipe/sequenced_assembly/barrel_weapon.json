@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createaddition:iron_rod"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:barrel_weapon"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_barrel_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_barrel_weapon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_barrel_weapon"
+        },
+        {
+          "tag": "catr:low_drill_bit"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_barrel_weapon"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_barrel_weapon"
+  }
+}

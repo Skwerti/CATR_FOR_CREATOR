@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "catr.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "catr.refmap.json",
+  "mixins": [
+    "DeployerBlockEntityMixin",
+    "DeployerRendererMixin",
+    "DeployerBlockEntityAccessor"
+  ],
+  "client": [
+    "DepotRendererMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

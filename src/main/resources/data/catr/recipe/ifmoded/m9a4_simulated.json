@@ -1,0 +1,80 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "simulated"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:corpus_m9a4"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 17,
+          "GunFireMode": "SEMI",
+          "GunId": "tacz:m9a4",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m9a4"
+        },
+        {
+          "item": "catr:store_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m9a4"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m9a4"
+        },
+        {
+          "item": "catr:shutter_pistols"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m9a4"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m9a4"
+        },
+        {
+          "item": "simulated:spring"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m9a4"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_m9a4"
+  }
+}

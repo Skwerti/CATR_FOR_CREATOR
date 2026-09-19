@@ -1,0 +1,106 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:corpus_hk_mp5a5"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 30,
+          "GunFireMode": "AUTO",
+          "GunId": "tacz:hk_mp5a5",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_hk_mp5a5"
+        },
+        {
+          "item": "catr:iron_butt_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_hk_mp5a5"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_hk_mp5a5"
+        },
+        {
+          "item": "catr:iron_handle"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_hk_mp5a5"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_hk_mp5a5"
+        },
+        {
+          "item": "catr:store_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_hk_mp5a5"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_hk_mp5a5"
+        },
+        {
+          "item": "catr:barrel_short"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_hk_mp5a5"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_hk_mp5a5"
+        },
+        {
+          "item": "catr:free_shutter"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_hk_mp5a5"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_hk_mp5a5"
+  }
+}

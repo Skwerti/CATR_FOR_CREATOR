@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "simulated"
+      }
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:spring"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:army_spring"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_army_spring"
+        },
+        {
+          "item": "catr:spring"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_army_spring"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_army_spring"
+  }
+}

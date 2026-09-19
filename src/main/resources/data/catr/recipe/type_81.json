@@ -1,0 +1,122 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:corpus_type_81"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 30,
+          "GunFireMode": "AUTO",
+          "GunId": "tacz:type_81",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_type_81"
+        },
+        {
+          "item": "catr:butt_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_type_81"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_type_81"
+        },
+        {
+          "item": "catr:wooden_handle"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_type_81"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_type_81"
+        },
+        {
+          "item": "catr:store_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_type_81"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_type_81"
+        },
+        {
+          "item": "catr:barrel_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_type_81"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_type_81"
+        },
+        {
+          "item": "catr:the_return_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_type_81"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_type_81"
+        },
+        {
+          "item": "catr:shutter_rifle"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_type_81"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_type_81"
+  }
+}

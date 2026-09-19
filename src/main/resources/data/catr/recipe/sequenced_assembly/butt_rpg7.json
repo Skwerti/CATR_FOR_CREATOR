@@ -1,0 +1,60 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:part_wooden_butt_rpg7"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:butt_rpg7"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_butt_rpg7"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_butt_rpg7"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_butt_rpg7"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_butt_rpg7"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_butt_rpg7"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_butt_rpg7"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_butt_rpg7"
+  }
+}

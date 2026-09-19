@@ -1,0 +1,58 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:barrel_shotgun"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 2,
+          "GunFireMode": "SEMI",
+          "GunId": "tacz:db_long",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_db_long"
+        },
+        {
+          "item": "catr:butt_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_db_long"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_db_long"
+        },
+        {
+          "item": "catr:army_spring"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_db_long"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_db_long"
+  }
+}

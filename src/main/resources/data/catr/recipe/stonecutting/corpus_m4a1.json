@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "result": {
+    "id": "catr:corpus_m4a1",
+    "count": 1
+  }
+}

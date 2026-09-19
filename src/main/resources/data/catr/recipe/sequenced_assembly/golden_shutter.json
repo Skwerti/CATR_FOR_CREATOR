@@ -1,0 +1,79 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createaddition:gold_rod"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:golden_shutter"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_golden_shutter"
+        },
+        {
+          "item": "catr:pressed_gold"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_golden_shutter"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_golden_shutter"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_golden_shutter"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_golden_shutter"
+        },
+        {
+          "item": "minecraft:gold_nugget"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_golden_shutter"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_golden_shutter"
+        },
+        {
+          "tag": "catr:low_drill_bit"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_golden_shutter"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_golden_shutter"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "catr:stripped_wood_material"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:part_wooden_butt_rpg7"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_part_wooden_butt_rpg7"
+        },
+        {
+          "item": "farmersdelight:iron_knife"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_part_wooden_butt_rpg7"
+        }
+      ],
+      "keepHeldItem": true
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_part_wooden_butt_rpg7"
+  }
+}

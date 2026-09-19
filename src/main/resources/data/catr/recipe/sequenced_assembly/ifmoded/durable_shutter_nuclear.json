@@ -1,0 +1,110 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "createbigcannons"
+      }
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createnuclear"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:steel_rod"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:durable_shutter"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_durable_shutter"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_durable_shutter"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_durable_shutter"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_durable_shutter"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_durable_shutter"
+        },
+        {
+          "item": "catr:diamond_drill_bit"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_durable_shutter"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_durable_shutter"
+        },
+        {
+          "item": "createnuclear:steel_nugget"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_durable_shutter"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_durable_shutter"
+        },
+        {
+          "item": "catr:army_spring"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_durable_shutter"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_durable_shutter"
+  }
+}

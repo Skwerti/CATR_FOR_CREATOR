@@ -1,0 +1,111 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createaddition:iron_rod"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:barrel_shotgun"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_barrel_shotgun"
+        },
+        {
+          "item": "createaddition:iron_rod"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_barrel_shotgun"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_barrel_shotgun"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_barrel_shotgun"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_barrel_shotgun"
+        },
+        {
+          "tag": "catr:low_drill_bit"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_barrel_shotgun"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_barrel_shotgun"
+        },
+        {
+          "tag": "catr:low_drill_bit"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_barrel_shotgun"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_barrel_shotgun"
+        },
+        {
+          "tag": "catr:low_drill_bit"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_barrel_shotgun"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_barrel_shotgun"
+        },
+        {
+          "tag": "catr:low_drill_bit"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_barrel_shotgun"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_barrel_shotgun"
+  }
+}

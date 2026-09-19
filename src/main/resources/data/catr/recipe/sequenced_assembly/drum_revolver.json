@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "loops": 6,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:drum_revolver"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_drum_revolver"
+        },
+        {
+          "tag": "catr:low_drill_bit"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_drum_revolver"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_drum_revolver"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_drum_revolver"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_drum_revolver"
+  }
+}

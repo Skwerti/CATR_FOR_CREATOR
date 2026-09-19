@@ -1,0 +1,99 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "simulated"
+      }
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:corpus_rhino_revolver"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 3,
+          "GunFireMode": "SEMI",
+          "GunId": "tacz:rhino357",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_rhino_revolver"
+        },
+        {
+          "item": "catr:wooden_handle"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_rhino_revolver"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_rhino_revolver"
+        },
+        {
+          "item": "catr:barrel_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_rhino_revolver"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_rhino_revolver"
+        },
+        {
+          "item": "catr:drum_revolver"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_rhino_revolver"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_rhino_revolver"
+        },
+        {
+          "item": "catr:spring"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_rhino_revolver"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_rhino_revolver"
+  }
+}

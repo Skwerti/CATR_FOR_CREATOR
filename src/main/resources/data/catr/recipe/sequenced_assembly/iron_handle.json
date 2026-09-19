@@ -1,0 +1,31 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:iron_handle"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_iron_handle"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_iron_handle"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_iron_handle"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "createbigcannons"
+      }
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createnuclear"
+    }
+  ],
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "item": "createnuclear:steel_ingot"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "catr:steel_rod"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "farmersdelight"
+      }
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "catr:log_material"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:wooden_handle"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_wooden_handle"
+        },
+        {
+          "item": "minecraft:iron_axe"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_wooden_handle"
+        }
+      ],
+      "keepHeldItem": true
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_wooden_handle"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:gold_block"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:pressed_gold"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_pressed_gold"
+        },
+        {
+          "item": "minecraft:copper_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_pressed_gold"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_pressed_gold"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_pressed_gold"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_pressed_gold"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_pressed_gold"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_pressed_gold"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_pressed_gold"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_pressed_gold"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_pressed_gold"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_pressed_gold"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_pressed_gold"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_pressed_gold"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:steel_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:durable_store_weapon"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_durable_store_weapon"
+        },
+        {
+          "item": "catr:steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_durable_store_weapon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_durable_store_weapon"
+        },
+        {
+          "item": "catr:steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_durable_store_weapon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_durable_store_weapon"
+        },
+        {
+          "item": "catr:steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_durable_store_weapon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_durable_store_weapon"
+        },
+        {
+          "item": "catr:steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_durable_store_weapon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_durable_store_weapon"
+        },
+        {
+          "item": "catr:army_spring"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_durable_store_weapon"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_durable_store_weapon"
+  }
+}

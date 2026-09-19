@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item":"catr:steel_nugget"},
+    {"item":"catr:steel_nugget"},
+    {"item":"catr:steel_nugget"},
+    {"item":"catr:steel_nugget"},
+    {"item":"catr:steel_nugget"},
+    {"item":"catr:steel_nugget"},
+    {"item":"catr:steel_nugget"},
+    {"item":"catr:steel_nugget"},
+    {"item":"catr:steel_nugget"}
+  ],
+  "result": {
+    "count": 1,
+    "id": "catr:steel_ingot"
+  }
+}

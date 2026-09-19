@@ -1,0 +1,58 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:butt_weapon"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 2,
+          "GunFireMode": "BURST",
+          "GunId": "tacz:db_short",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_db_short"
+        },
+        {
+          "item": "catr:barrel_shotgun"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_db_short"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_db_short"
+        },
+        {
+          "item": "catr:army_spring"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_db_short"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_db_short"
+  }
+}

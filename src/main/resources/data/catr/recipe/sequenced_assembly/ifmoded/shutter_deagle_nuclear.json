@@ -1,0 +1,93 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "createbigcannons"
+      }
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createnuclear"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:steel_rod"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:shutter_deagle"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_shutter_deagle"
+        },
+        {
+          "item": "catr:steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_shutter_deagle"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_shutter_deagle"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_shutter_deagle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_shutter_deagle"
+        },
+        {
+          "item": "createnuclear:steel_nugget"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_shutter_deagle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_shutter_deagle"
+        },
+        {
+          "item": "catr:diamond_drill_bit"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_shutter_deagle"
+        }
+      ],
+      "keepHeldItem": true
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_shutter_deagle"
+  }
+}

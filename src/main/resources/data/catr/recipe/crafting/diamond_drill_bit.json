@@ -1,0 +1,12 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item":"minecraft:diamond"},
+    {"item":"minecraft:diamond"}
+  ],
+  "result": {
+    "count": 1,
+    "id": "catr:diamond_drill_bit"
+  }
+}
