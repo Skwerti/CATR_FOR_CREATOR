@@ -1,0 +1,122 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:corpus_fn_evolys"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 75,
+          "GunFireMode": "AUTO",
+          "GunId": "tacz:fn_evolys",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_fn_evolys"
+        },
+        {
+          "item": "catr:iron_butt_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_fn_evolys"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_fn_evolys"
+        },
+        {
+          "item": "catr:iron_handle"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_fn_evolys"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_fn_evolys"
+        },
+        {
+          "item": "catr:machine_gun_magazine"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_fn_evolys"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_fn_evolys"
+        },
+        {
+          "item": "catr:barrel_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_fn_evolys"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_fn_evolys"
+        },
+        {
+          "item": "catr:enhanced_return_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_fn_evolys"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_fn_evolys"
+        },
+        {
+          "item": "catr:durable_shutter"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_fn_evolys"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_fn_evolys"
+  }
+}

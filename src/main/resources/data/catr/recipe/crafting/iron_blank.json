@@ -1,0 +1,12 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item":"create:iron_sheet"},
+    {"item":"create:iron_sheet"}
+  ],
+  "result": {
+    "count": 1,
+    "id": "catr:iron_blank"
+  }
+}

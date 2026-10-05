@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "create:iron_sheet"
+    "item": "catr:steel_sheet"
   },
   "result": {
     "count": 1,

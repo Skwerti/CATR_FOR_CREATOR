@@ -1,0 +1,34 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:the_return_mechanism"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:enhanced_return_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_enhanced_return_mechanism"
+        },
+        {
+          "item": "catr:army_spring"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_enhanced_return_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_enhanced_return_mechanism"
+  }
+}

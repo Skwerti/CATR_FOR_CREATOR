@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "catr:iron_blank"
+  },
+  "result": {
+    "count": 1,
+    "id": "catr:corpus_m249"
+  }
+}

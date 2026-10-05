@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item":"catr:steel_sheet"},
+    {"item":"minecraft:diamond"},
+    {"item":"minecraft:diamond"},
+    {"item":"minecraft:diamond"},
+    {"item":"minecraft:diamond"}
+  ],
+  "result": {
+    "count": 1,
+    "id": "catr:steel_diamond_coating"
+  }
+}

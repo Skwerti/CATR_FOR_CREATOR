@@ -1,0 +1,90 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:corpus_m320"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 4,
+          "GunFireMode": "SEMI",
+          "GunId": "tacz:m320",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m320"
+        },
+        {
+          "item": "catr:iron_butt_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m320"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m320"
+        },
+        {
+          "item": "catr:iron_handle"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m320"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m320"
+        },
+        {
+          "item": "catr:barrel_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m320"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m320"
+        },
+        {
+          "item": "catr:army_spring"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m320"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_m320"
+  }
+}

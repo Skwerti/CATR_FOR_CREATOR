@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "catr:netherite_diamond_blank"
+  },
+  "result": {
+    "id": "catr:corpus_aa12",
+    "count": 1
+  }
+}

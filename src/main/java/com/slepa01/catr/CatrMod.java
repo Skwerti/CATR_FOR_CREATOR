@@ -38,6 +38,7 @@ public class CatrMod
         ModItemsGen.ITEMS.register(eventBus);
         eventBus.addListener(this::registerPayloads);
         NeoForge.EVENT_BUS.register(this);
+        NeoForge.EVENT_BUS.register(new com.slepa01.catr.client.event.RecipeTooltipModifier());
         LOGGER.info("CatrMod загружен!");
     }
 
@@ -76,8 +77,21 @@ public class CatrMod
             event.accept(ModItemsGen.CORPUS_M1911.get());
             event.accept(ModItemsGen.CORPUS_SKS_TACTICAL.get());
             event.accept(ModItemsGen.CORPUS_M870.get());
+            event.accept(ModItemsGen.CORPUS_M249.get());
+            event.accept(ModItemsGen.CORPUS_FN_EVOLYS.get());
+            event.accept(ModItemsGen.CORPUS_TAURUS943.get());
+            event.accept(ModItemsGen.CORPUS_KAR98.get());
+            event.accept(ModItemsGen.CORPUS_M700.get());
+            event.accept(ModItemsGen.CORPUS_TIMELESS50.get());
+            event.accept(ModItemsGen.CORPUS_MK14.get());
+            event.accept(ModItemsGen.CORPUS_M1014.get());
+            event.accept(ModItemsGen.CORPUS_M320.get());
+            event.accept(ModItemsGen.CORPUS_SPAS_12.get());
+            event.accept(ModItemsGen.CORPUS_SPRINGFIELD1873.get());
+            event.accept(ModItemsGen.CORPUS_AA12.get());
         } else if (event.getTab() == ModCreativeTabs.COMPONENTS_WEAPON_TAB.get()) {
             event.accept(ModItems.THE_RETURN_MECHANISM.get());
+            event.accept(ModItemsGen.ENHANCED_RETURN_MECHANISM.get());
             event.accept(ModItems.BUTT_WEAPON.get());
             event.accept(ModItems.WOODEN_HANDLE.get());
             event.accept(ModItems.IRON_HANDLE.get());
@@ -93,6 +107,7 @@ public class CatrMod
             );
             event.accept(ModItems.STORE_WEAPON.get());
             event.accept(ModItemsGen.DURABLE_STORE_WEAPON.get());
+            event.accept(ModItemsGen.MACHINE_GUN_MAGAZINE.get());
             event.accept(ModItems.BARREL_WEAPON.get());
             event.accept(ModItemsGen.BARREL_SHOTGUN.get());
             event.accept(ModItemsGen.BARREL_SHORT.get());
@@ -107,6 +122,13 @@ public class CatrMod
             event.accept(ModItemsGen.DIAMOND_DRILL_BIT.get());
             event.accept(ModItemsGen.STEEL_ROD.get());
             event.accept(ModItemsGen.STEEL_SHEET.get());
+            event.accept(ModItemsGen.STEEL_DIAMOND_COATING.get());
+            event.accept(ModItemsGen.NETHERITE_SHEET.get());
+            event.accept(ModItemsGen.STEEL_BLANK.get());
+            event.accept(ModItemsGen.GOLD_STEEL_BLANK.get());
+            event.accept(ModItemsGen.STEEL_DIAMOND_BLANK.get());
+            event.accept(ModItemsGen.NETHERITE_DIAMOND_BLANK.get());
+            event.accept(ModItemsGen.IRON_BLANK.get());
             CreativeTabConditions.addIfModsNotLoaded(
                     event,
                     new ItemStack(ModItemsGen.STEEL_NUGGET.get()),

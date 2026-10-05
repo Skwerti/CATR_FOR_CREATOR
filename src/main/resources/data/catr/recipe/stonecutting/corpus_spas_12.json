@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "catr:steel_diamond_blank"
+  },
+  "result": {
+    "id": "catr:corpus_spas_12",
+    "count": 1
+  }
+}

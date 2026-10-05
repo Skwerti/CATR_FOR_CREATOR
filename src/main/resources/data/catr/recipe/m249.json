@@ -1,0 +1,122 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:corpus_m249"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 75,
+          "GunFireMode": "AUTO",
+          "GunId": "tacz:m249",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m249"
+        },
+        {
+          "item": "catr:iron_butt_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m249"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m249"
+        },
+        {
+          "item": "catr:iron_handle"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m249"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m249"
+        },
+        {
+          "item": "catr:machine_gun_magazine"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m249"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m249"
+        },
+        {
+          "item": "catr:barrel_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m249"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m249"
+        },
+        {
+          "item": "catr:enhanced_return_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m249"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m249"
+        },
+        {
+          "item": "catr:shutter_rifle"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m249"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_m249"
+  }
+}

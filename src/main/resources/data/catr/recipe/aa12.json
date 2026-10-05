@@ -1,13 +1,7 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "simulated"
-    }
-  ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "catr:corpus_rhino_revolver"
+    "item": "catr:corpus_aa12"
   },
   "loops": 1,
   "results": [
@@ -16,9 +10,9 @@
       "id": "tacz:modern_kinetic_gun",
       "components": {
         "minecraft:custom_data": {
-          "GunCurrentAmmoCount": 3,
+          "GunCurrentAmmoCount": 2,
           "GunFireMode": "SEMI",
-          "GunId": "tacz:rhino357",
+          "GunId": "tacz:aa12",
           "HasBulletInBarrel": false
         }
       }
@@ -29,15 +23,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "catr:incoplete_rhino_revolver"
+          "item": "catr:incoplete_aa12"
         },
         {
-          "item": "catr:wooden_handle"
+          "item": "catr:iron_butt_weapon"
         }
       ],
       "results": [
         {
-          "id": "catr:incoplete_rhino_revolver"
+          "id": "catr:incoplete_aa12"
         }
       ]
     },
@@ -45,15 +39,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "catr:incoplete_rhino_revolver"
+          "item": "catr:incoplete_aa12"
         },
         {
-          "item": "catr:barrel_weapon"
+          "item": "catr:iron_handle"
         }
       ],
       "results": [
         {
-          "id": "catr:incoplete_rhino_revolver"
+          "id": "catr:incoplete_aa12"
         }
       ]
     },
@@ -61,15 +55,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "catr:incoplete_rhino_revolver"
+          "item": "catr:incoplete_aa12"
         },
         {
-          "item": "catr:drum_revolver"
+          "item": "catr:barrel_shotgun"
         }
       ],
       "results": [
         {
-          "id": "catr:incoplete_rhino_revolver"
+          "id": "catr:incoplete_aa12"
         }
       ]
     },
@@ -77,20 +71,36 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "catr:incoplete_rhino_revolver"
+          "item": "catr:incoplete_aa12"
         },
         {
-          "item": "simulated:spring"
+          "item": "catr:enhanced_return_mechanism"
         }
       ],
       "results": [
         {
-          "id": "catr:incoplete_rhino_revolver"
+          "id": "catr:incoplete_aa12"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_aa12"
+        },
+        {
+          "item": "catr:durable_shutter"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_aa12"
         }
       ]
     }
   ],
   "transitional_item": {
-    "id": "catr:incoplete_rhino_revolver"
+    "id": "catr:incoplete_aa12"
   }
 }

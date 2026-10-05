@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "create:iron_sheet"
+    "item": "catr:iron_blank"
   },
   "result": {
     "id": "catr:corpus_hk_g3",

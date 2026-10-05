@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item":"catr:netherite_sheet"},
+    {"item":"catr:steel_diamond_coating"}
+  ],
+  "result": {
+    "count": 1,
+    "id": "catr:netherite_diamond_blank"
+  }
+}

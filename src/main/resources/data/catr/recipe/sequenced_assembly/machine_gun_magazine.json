@@ -1,0 +1,98 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:iron_blank"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "catr:machine_gun_magazine"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_machine_gun_magazine"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_machine_gun_magazine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_machine_gun_magazine"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_machine_gun_magazine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_machine_gun_magazine"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_machine_gun_magazine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_machine_gun_magazine"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_machine_gun_magazine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_machine_gun_magazine"
+        },
+        {
+          "item": "catr:army_spring"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_machine_gun_magazine"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_machine_gun_magazine"
+  }
+}

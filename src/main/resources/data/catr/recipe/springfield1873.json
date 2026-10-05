@@ -1,16 +1,7 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:not",
-      "value": {
-        "type": "neoforge:mod_loaded",
-        "modid": "simulated"
-      }
-    }
-  ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "catr:corpus_rhino_revolver"
+    "item": "catr:corpus_springfield1873"
   },
   "loops": 1,
   "results": [
@@ -19,9 +10,9 @@
       "id": "tacz:modern_kinetic_gun",
       "components": {
         "minecraft:custom_data": {
-          "GunCurrentAmmoCount": 3,
+          "GunCurrentAmmoCount": 1,
           "GunFireMode": "SEMI",
-          "GunId": "tacz:rhino357",
+          "GunId": "tacz:springfield1873",
           "HasBulletInBarrel": false
         }
       }
@@ -32,15 +23,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "catr:incoplete_rhino_revolver"
+          "item": "catr:incoplete_springfield1873"
         },
         {
-          "item": "catr:wooden_handle"
+          "item": "catr:butt_weapon"
         }
       ],
       "results": [
         {
-          "id": "catr:incoplete_rhino_revolver"
+          "id": "catr:incoplete_springfield1873"
         }
       ]
     },
@@ -48,7 +39,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "catr:incoplete_rhino_revolver"
+          "item": "catr:incoplete_springfield1873"
         },
         {
           "item": "catr:barrel_weapon"
@@ -56,7 +47,7 @@
       ],
       "results": [
         {
-          "id": "catr:incoplete_rhino_revolver"
+          "id": "catr:incoplete_springfield1873"
         }
       ]
     },
@@ -64,15 +55,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "catr:incoplete_rhino_revolver"
+          "item": "catr:incoplete_springfield1873"
         },
         {
-          "item": "catr:drum_revolver"
+          "item": "catr:enhanced_return_mechanism"
         }
       ],
       "results": [
         {
-          "id": "catr:incoplete_rhino_revolver"
+          "id": "catr:incoplete_springfield1873"
         }
       ]
     },
@@ -80,20 +71,20 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "catr:incoplete_rhino_revolver"
+          "item": "catr:incoplete_springfield1873"
         },
         {
-          "item": "catr:spring"
+          "item": "catr:durable_shutter"
         }
       ],
       "results": [
         {
-          "id": "catr:incoplete_rhino_revolver"
+          "id": "catr:incoplete_springfield1873"
         }
       ]
     }
   ],
   "transitional_item": {
-    "id": "catr:incoplete_rhino_revolver"
+    "id": "catr:incoplete_springfield1873"
   }
 }

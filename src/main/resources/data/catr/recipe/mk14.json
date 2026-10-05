@@ -1,0 +1,106 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:corpus_mk14"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 8,
+          "GunFireMode": "SEMI",
+          "GunId": "tacz:mk14",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_mk14"
+        },
+        {
+          "item": "catr:iron_butt_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_mk14"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_mk14"
+        },
+        {
+          "item": "catr:iron_handle"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_mk14"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_mk14"
+        },
+        {
+          "item": "catr:barrel_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_mk14"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_mk14"
+        },
+        {
+          "item": "catr:the_return_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_mk14"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_mk14"
+        },
+        {
+          "item": "catr:durable_shutter"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_mk14"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_mk14"
+  }
+}

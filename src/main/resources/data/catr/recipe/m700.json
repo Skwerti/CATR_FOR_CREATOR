@@ -1,0 +1,90 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:corpus_m700"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 5,
+          "GunFireMode": "SEMI",
+          "GunId": "tacz:m700",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m700"
+        },
+        {
+          "item": "catr:iron_butt_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m700"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m700"
+        },
+        {
+          "item": "catr:barrel_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m700"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m700"
+        },
+        {
+          "item": "catr:enhanced_return_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m700"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_m700"
+        },
+        {
+          "item": "catr:durable_shutter"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_m700"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_m700"
+  }
+}

@@ -146,4 +146,74 @@ public class ModItemsGen {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> INCOPLETE_SKS_TACTICAL = ITEMS.register("incoplete_sks_tactical",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> IRON_BLANK = ITEMS.register("iron_blank",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORPUS_M249 = ITEMS.register("corpus_m249",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_M249 = ITEMS.register("incoplete_m249",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MACHINE_GUN_MAGAZINE = ITEMS.register("machine_gun_magazine",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_MACHINE_GUN_MAGAZINE = ITEMS.register("incoplete_machine_gun_magazine",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_ENHANCED_RETURN_MECHANISM = ITEMS.register("incoplete_enhanced_return_mechanism",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ENHANCED_RETURN_MECHANISM = ITEMS.register("enhanced_return_mechanism",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORPUS_FN_EVOLYS = ITEMS.register("corpus_fn_evolys",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_FN_EVOLYS = ITEMS.register("incoplete_fn_evolys",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_BLANK = ITEMS.register("steel_blank",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORPUS_TAURUS943 = ITEMS.register("corpus_taurus943",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_TAURUS943 = ITEMS.register("incoplete_taurus943",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORPUS_KAR98 = ITEMS.register("corpus_kar98",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_KAR98 = ITEMS.register("incoplete_kar98",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORPUS_M700 = ITEMS.register("corpus_m700",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_M700 = ITEMS.register("incoplete_m700",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORPUS_TIMELESS50 = ITEMS.register("corpus_timeless50",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_TIMELESS50 = ITEMS.register("incoplete_timeless50",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOLD_STEEL_BLANK = ITEMS.register("gold_steel_blank",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORPUS_MK14 = ITEMS.register("corpus_mk14",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_MK14 = ITEMS.register("incoplete_mk14",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORPUS_M1014 = ITEMS.register("corpus_m1014",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_M1014 = ITEMS.register("incoplete_m1014",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORPUS_M320 = ITEMS.register("corpus_m320",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_M320 = ITEMS.register("incoplete_m320",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_DIAMOND_COATING = ITEMS.register("steel_diamond_coating",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_DIAMOND_BLANK = ITEMS.register("steel_diamond_blank",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NETHERITE_SHEET = ITEMS.register("netherite_sheet",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NETHERITE_DIAMOND_BLANK = ITEMS.register("netherite_diamond_blank",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORPUS_SPAS_12 = ITEMS.register("corpus_spas_12",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_SPAS_12 = ITEMS.register("incoplete_spas_12",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORPUS_SPRINGFIELD1873 = ITEMS.register("corpus_springfield1873",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_SPRINGFIELD1873 = ITEMS.register("incoplete_springfield1873",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CORPUS_AA12 = ITEMS.register("corpus_aa12",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOPLETE_AA12 = ITEMS.register("incoplete_aa12",
+            () -> new Item(new Item.Properties()));
 }

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "catr:wood_material"
+  },
+  "result": {
+    "id": "catr:corpus_springfield1873",
+    "count": 1
+  }
+}

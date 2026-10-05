@@ -1,0 +1,90 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "catr:corpus_kar98"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "tacz:modern_kinetic_gun",
+      "components": {
+        "minecraft:custom_data": {
+          "GunCurrentAmmoCount": 4,
+          "GunFireMode": "SEMI",
+          "GunId": "tacz:kar98",
+          "HasBulletInBarrel": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_kar98"
+        },
+        {
+          "item": "catr:butt_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_kar98"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_kar98"
+        },
+        {
+          "item": "catr:barrel_weapon"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_kar98"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_kar98"
+        },
+        {
+          "item": "catr:enhanced_return_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_kar98"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "catr:incoplete_kar98"
+        },
+        {
+          "item": "catr:durable_shutter"
+        }
+      ],
+      "results": [
+        {
+          "id": "catr:incoplete_kar98"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "catr:incoplete_kar98"
+  }
+}
